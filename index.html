@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Log in</h1>
+        <form action="" class="login-form">
+            <div class="group-input">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="user-email">
+                <span class="email-error"></span>
+            </div>
+
+            <div class="group-input">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="user-password">
+                <div>
+                    <input type="checkbox" id="checkbox" class="showPassword">
+                    <label for="checkbox">show password</label>
+                </div>
+                
+                <span class="password-error">
+
+                </span>
+            </div>
+
+
+            <button type="submit" class="login-btn">Log in</button>
+        </form>
+
+        <div class="link-cont">
+            <p>forgot <a href="#">Password</a> ?</p>
+            <p>don't have an account? <a href="#">Sign in</a></p>
+        </div>
+
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1e1b4b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 500px;
+    background-color: white;
+    margin: 100px auto 0px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-form{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.group-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.group-input label{
+    font-weight: bold;
+}
+
+.login-form .login-btn{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    outline: none;
+    background-color: #1e1b4b;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.group-input input{
+    height: 35px;
+    margin-bottom: 5px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.group-input span{
+    font-size: 0.8rem;
+    color: red;
+    display: none;
+    line-height: 12px;
+}
+
+.group-input > div{
+    height: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+.group-input > div > label{
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.group-input .showPassword{
+    width: 14px;
+    margin: 0;
+    accent-color: #1e1b4b;
+}
+
+.link-cont{
+    text-align: center;
+    margin: auto;
+}
+
+.link-cont a{
+    color: #3730a3;
+    text-decoration: none;
+    font-weight: bold;
+}
